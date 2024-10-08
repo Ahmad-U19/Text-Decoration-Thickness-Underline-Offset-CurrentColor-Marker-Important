@@ -1,0 +1,13 @@
+h1{
+    color: aqua;
+    text-decoration-line: underline overline;
+    text-decoration-color: yellowgreen;
+    text-align: center;
+    text-decoration-thickness: 15px;
+    text-underline-offset: 15px;
+    border: 1px solid currentColor;
+}
+ul li::marker{
+    color: red;
+    color: gray !important;
+}
